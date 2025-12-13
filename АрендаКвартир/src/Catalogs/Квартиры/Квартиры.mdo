@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89cfdcf8-8989-4a0c-8a79-1585f620e653">
+  <producedTypes>
+    <objectType typeId="82ffb9db-0a5c-4543-b9e5-10b14d864368" valueTypeId="4e57348f-1707-493e-b0d5-cb6591cc3850"/>
+    <refType typeId="fce81c45-2575-48ff-a039-6a3c31b4a5cc" valueTypeId="af72a12d-2df9-4b74-9b23-a37394b48d96"/>
+    <selectionType typeId="83791582-ae65-4d64-85e1-67f318668c67" valueTypeId="d49504a2-29bc-48a1-8d39-4f0445763afe"/>
+    <listType typeId="2298679d-d589-4db9-96f4-d03e19982135" valueTypeId="0987357d-a356-4762-8432-cbac8871d253"/>
+    <managerType typeId="8013e608-9dc2-42ec-982a-ab4d1d3d3b76" valueTypeId="ecc3141f-aea0-4e20-a297-d0391f0af56c"/>
+  </producedTypes>
+  <name>Квартиры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квартиры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Квартиры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Квартиры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Квартира</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f51af34a-1d73-4559-a100-29232640bae0">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="34c3c06a-1ef4-48ad-b6bd-2a753ae7c4cd">
+    <name>Фото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39d1fc77-0333-40ac-a9f8-7d712cb8e6e2">
+    <name>КоличествоКомнат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество комнат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="51056567-4e80-4b7b-94fa-3a4b2b1174d0">
+    <name>ЖилаяПлощадь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жилая площадь</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa42753a-b504-418d-bac3-aac31b987534">
+    <name>Этаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этаж</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

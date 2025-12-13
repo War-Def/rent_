@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8639c0d1-0548-4247-aa73-8890e780bc24">
+  <producedTypes>
+    <refType typeId="cf037f6f-a6ce-4756-9859-fb868d3e8692" valueTypeId="d5e90766-c866-4b0f-9293-940dcc83ecc4"/>
+    <listType typeId="7c86dab7-1074-4951-ab34-16309ba1cc42" valueTypeId="e3ffca1c-ce77-4676-bb46-7b338b6d82c4"/>
+    <managerType typeId="c8130b8a-e14c-4964-b75e-5c5149cfa623" valueTypeId="6f5254f0-3d50-4d2a-a61b-dd49e06e6cfa"/>
+  </producedTypes>
+  <name>Статус</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8f27dadf-550e-401d-8b3d-a259128587ca">
+    <name>Покупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a805c66-5120-4e22-9567-372e84ecc9ef">
+    <name>Собственник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственник</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

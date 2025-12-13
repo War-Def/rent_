@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffaf20ce-5f38-4a6a-bdab-a0a347b41167">
+  <name>АрендаКвартир</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда квартир</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f4645705-6746-46c0-a195-db7e19795c1c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a6ad066d-7f2c-4710-9444-4e34c2194f42"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="65a8f754-f68d-401e-9456-564b8664b032"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="870a3bd4-a629-4082-8e6a-784fc82955db"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2b9bc13b-b4b3-46a8-b1ac-c3b18ba22f8d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="fa5f038f-5db8-445c-8552-7b5d6ed71627"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6a49dc47-0c39-4bb6-8c14-7db9ac4b81cd"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="49fc8027-3a7a-43a0-9cfd-546572b1554d">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.РаботаСАрендаторами</subsystems>
+  <subsystems>Subsystem.РаботаССобственниками</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.БазовыеПрава</roles>
+  <roles>Role.Вывод</roles>
+  <roles>Role.ЗапускВебКлиента</roles>
+  <roles>Role.ЗапускМобильногоКлиента</roles>
+  <roles>Role.ЗапускТонкогоКлиента</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.РаботаСАрендателями</roles>
+  <roles>Role.РаботаССобственниками</roles>
+  <roles>Role.СохранениеДанныхПользователя</roles>
+  <commonModules>CommonModule.ЛогированиеСистемыВызовСервера</commonModules>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Квартиры</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ВходПользователя</documents>
+  <documents>Document.ПродлениеАренды</documents>
+  <documents>Document.СдачаВАренду</documents>
+  <enums>Enum.Должности</enums>
+  <enums>Enum.ПредметДоговора</enums>
+  <enums>Enum.Статус</enums>
+  <reports>Report.Отчет</reports>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>
