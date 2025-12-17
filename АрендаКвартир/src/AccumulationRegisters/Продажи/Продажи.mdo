@@ -62,10 +62,10 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="9fe35b38-cb0a-495b-b0cc-0de4409bfded">
-    <name>ОбъектАренды</name>
+    <name>Квартира</name>
     <synonym>
       <key>ru</key>
-      <value>Объект аренды</value>
+      <value>Квартира</value>
     </synonym>
     <type>
       <types>CatalogRef.Квартиры</types>

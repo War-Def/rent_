@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e628f54-fd15-46c8-93f9-f2874d4c0a71">
+  <producedTypes>
+    <objectType typeId="bb9215cf-6d68-4a32-9f29-96f09d551abd" valueTypeId="7f8382ef-f33e-47b9-9b59-32ffb64cb088"/>
+    <refType typeId="6cc39315-9e94-4b34-958f-68c1f32101f7" valueTypeId="7afdb09a-fa3d-4cce-a4ca-03bf8b48112b"/>
+    <selectionType typeId="b57e5282-b869-4040-8361-fa524dd5765e" valueTypeId="5634f877-2dd0-4bf3-9153-29d8ddb07f0d"/>
+    <listType typeId="0f51ec56-c317-4d80-8b78-a37132f455a6" valueTypeId="b7d6ed57-52e7-4d37-8d4f-ebd8db0f7795"/>
+    <managerType typeId="98453a3b-1faa-4865-894d-79f99167abbf" valueTypeId="bcbced52-4a0f-4868-8523-8cb14c799b2b"/>
+  </producedTypes>
+  <name>УстановкаЦенНаКвартиры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка цен на квартиры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаЦенНаКвартиры.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Установка цен на квартиры</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаЦенНаКвартиры.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ЦеныНаКвартиры</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0fb611b5-12a6-41ce-a93f-fc0cc23ff0a5">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e29a9f33-448c-4cab-a47c-af0748097c60">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="11d56176-41a1-4975-87c4-62d493a6a26b">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="ca8e8ff3-667e-46fd-a73a-44735cbb03d9">
+    <producedTypes>
+      <objectType typeId="d9352bbc-9243-4fa3-833b-221057dcc9b9" valueTypeId="06b3827d-ee69-4794-ab8e-40dce58b04ca"/>
+      <rowType typeId="e1208d6a-6c46-4fe6-8280-e42c740cdfd3" valueTypeId="30bc4b27-cfa2-4f98-a325-58e9a7a5da6f"/>
+    </producedTypes>
+    <name>ЦеныНаКвартиры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены на квартиры</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="e030563d-a4cf-4a33-b166-3652488f31e6">
+      <name>Квартира</name>
+      <synonym>
+        <key>ru</key>
+        <value>Квартира</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Квартиры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7252bc09-05b6-4b53-8365-e7ad5cafc003">
+      <name>ЦенаЗаДень</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена за день</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

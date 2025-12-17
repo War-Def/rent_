@@ -44,15 +44,16 @@
   <subsystems>Subsystem.РаботаССобственниками</subsystems>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.БазовыеПрава</roles>
-  <roles>Role.Вывод</roles>
   <roles>Role.ЗапускВебКлиента</roles>
   <roles>Role.ЗапускМобильногоКлиента</roles>
   <roles>Role.ЗапускТонкогоКлиента</roles>
   <roles>Role.ПолныеПрава</roles>
-  <roles>Role.РаботаСАрендателями</roles>
+  <roles>Role.РаботаСАрендаторами</roles>
   <roles>Role.РаботаССобственниками</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
   <commonModules>CommonModule.ЛогированиеСистемыВызовСервера</commonModules>
+  <commonModules>CommonModule.ЦеныНаКвартиры</commonModules>
+  <commonModules>CommonModule.ЦеныНаКвртирыВызовСервера</commonModules>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Квартиры</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
@@ -60,9 +61,11 @@
   <documents>Document.ВходПользователя</documents>
   <documents>Document.ПродлениеАренды</documents>
   <documents>Document.СдачаВАренду</documents>
+  <documents>Document.УстановкаЦенНаКвартиры</documents>
   <enums>Enum.Должности</enums>
   <enums>Enum.ПредметДоговора</enums>
   <enums>Enum.Статус</enums>
   <reports>Report.Отчет</reports>
+  <informationRegisters>InformationRegister.ЦеныНаКвартиры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

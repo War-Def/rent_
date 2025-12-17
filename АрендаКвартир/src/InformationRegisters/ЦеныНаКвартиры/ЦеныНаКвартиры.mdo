@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29cfa926-4da8-480a-a131-56848e9f01e7">
+  <producedTypes>
+    <selectionType typeId="ba47a6fe-dc16-4999-bddc-cb2b7ccdf1d8" valueTypeId="aae309f4-c14d-4ea0-b442-cfd3c6b93df8"/>
+    <listType typeId="c8cd7b87-fd8a-4718-a764-cf935a47f5cc" valueTypeId="70e44380-d893-49f8-8b9b-bd9ef45f23f3"/>
+    <managerType typeId="c414fdc6-f9fa-4761-9d94-1d00169a88fa" valueTypeId="e749ee8f-d3da-42a2-9c75-4cbdb7593532"/>
+    <recordSetType typeId="643c6145-12ff-44db-ad49-e65da12e0d22" valueTypeId="cdddbe8f-bf5c-4169-ba70-e6baf7eb1517"/>
+    <recordKeyType typeId="9b4905f8-ee53-4293-a2b2-ba61e55cd63b" valueTypeId="dcc54ec0-9534-4791-b131-3228c61ec5e1"/>
+    <recordType typeId="724e199c-3899-4486-aa06-a50deae3a4fd" valueTypeId="859054ba-e276-47d1-94b4-e4536b0c7180"/>
+    <recordManagerType typeId="c168f934-cd08-4ffe-95bd-407ffbc89ca7" valueTypeId="0f0a768d-c995-4ffb-bc3f-a128e30224c1"/>
+  </producedTypes>
+  <name>ЦеныНаКвартиры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены на квартиры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Цена на квартиру</value>
+  </recordPresentation>
+  <resources uuid="50b88d2a-c43e-4da5-a217-ba14f9a4c596">
+    <name>ЦенаЗаДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена за день</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ff92e05d-45bb-46d3-9757-fffac3d84305">
+    <name>Квартира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартира</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
