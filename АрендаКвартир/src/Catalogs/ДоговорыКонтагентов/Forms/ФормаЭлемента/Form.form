@@ -346,7 +346,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.Договоры</types>
+      <types>CatalogObject.ДоговорыКонтагентов</types>
     </valueType>
     <view>
       <common>true</common>

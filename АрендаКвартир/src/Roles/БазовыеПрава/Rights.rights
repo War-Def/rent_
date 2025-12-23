@@ -18,4 +18,11 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>SessionParameter.ТекущийПользователь</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>

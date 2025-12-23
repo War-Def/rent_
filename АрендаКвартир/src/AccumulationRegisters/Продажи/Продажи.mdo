@@ -54,7 +54,7 @@
       <value>Договор</value>
     </synonym>
     <type>
-      <types>CatalogRef.Договоры</types>
+      <types>CatalogRef.ДоговорыКонтагентов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

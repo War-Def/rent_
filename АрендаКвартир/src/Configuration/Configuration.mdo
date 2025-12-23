@@ -52,9 +52,10 @@
   <roles>Role.РаботаССобственниками</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
   <commonModules>CommonModule.ЛогированиеСистемыВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСДокументами</commonModules>
   <commonModules>CommonModule.ЦеныНаКвартиры</commonModules>
-  <commonModules>CommonModule.ЦеныНаКвртирыВызовСервера</commonModules>
-  <catalogs>Catalog.Договоры</catalogs>
+  <commonModules>CommonModule.ЦеныНаКвартирыВызовСервера</commonModules>
+  <catalogs>Catalog.ДоговорыКонтагентов</catalogs>
   <catalogs>Catalog.Квартиры</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>

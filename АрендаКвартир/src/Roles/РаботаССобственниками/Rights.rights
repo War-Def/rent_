@@ -4,6 +4,20 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Subsystem.Настройки</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.НСИ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Квартиры</name>
 		<right>
 			<name>Read</name>
@@ -66,7 +80,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Договоры</name>
+		<name>Catalog.ДоговорыКонтагентов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -97,41 +111,9 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.АрендаКвартир</name>
+		<name>Subsystem.РаботаССобственниками</name>
 		<right>
-			<name>ThinClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>WebClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeNormal</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeEmbeddedWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeFullscreenWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeKiosk</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>AnalyticsSystemClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SaveUserData</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

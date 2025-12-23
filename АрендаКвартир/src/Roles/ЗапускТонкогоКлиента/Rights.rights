@@ -9,5 +9,9 @@
 			<name>ThinClient</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
 	</object>
 </Rights>

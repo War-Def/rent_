@@ -259,6 +259,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Квартира</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>КвартираПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>КвартираРасширеннаяПодсказка</name>
       <id>9</id>

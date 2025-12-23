@@ -7,7 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.Договоры</content>
+  <content>Catalog.ДоговорыКонтагентов</content>
   <content>Catalog.Квартиры</content>
   <content>Catalog.Контрагенты</content>
 </mdclass:Subsystem>

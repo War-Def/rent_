@@ -9,9 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ПродлениеАренды</content>
   <content>Document.СдачаВАренду</content>
-  <content>Catalog.Договоры</content>
-  <content>Catalog.Квартиры</content>
-  <content>Catalog.Контрагенты</content>
   <content>Report.Отчет</content>
   <content>AccumulationRegister.Продажи</content>
 </mdclass:Subsystem>
